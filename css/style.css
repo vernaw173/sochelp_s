@@ -1,0 +1,126 @@
+/* Standarts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+img{
+    width:250px;
+    height:150px;
+    
+}
+h1{
+    padding-bottom:10px;
+    font-size:27px;
+}
+p{
+    font-size:20px;
+}
+a{
+    font-size: 20px;
+}
+/* End of Standarts */
+
+
+/* Container*/
+.osreudiycefj{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+/* End of Container */
+
+
+/* Main-Wrapper */
+.fhzjfohlrsdreak{
+    /* border:2px solid black; */
+    min-height:80vh;
+    margin:0 auto;
+}
+/* End of Main-Wrapper */
+
+
+/* IMG */
+.qpfgsjxzsrqkk{
+    /* border:2px solid black; */
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    height:30vh;
+    padding-bottom: 15px;
+}
+/* End of IMG */
+
+
+/* Title and Text */
+.dtodvukdvazcwti{
+    /* border:2px solid black; */
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+/* End of Title and text */
+
+
+/* Btn  */
+.shhqlyucucyw{
+    /* border:2px solid black; */
+    display: flex;
+    justify-content:center;
+    padding-top:20px;
+}
+.shhqlyucucyw input{
+    text-decoration:none;
+    color: white;
+	font-weight:bold;
+	font-size:20px;
+	cursor: pointer;
+    padding:15px;
+    text-align: center;
+    background-color: rgb(235, 161, 26);
+    border-radius:10px;
+}
+/* End of Btn */
+
+
+/* Adaptation */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+ .fhzjfohlrsdreak {
+     width:20%;
+ }
+}
+
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .fhzjfohlrsdreak{
+        width:20%;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+ .fhzjfohlrsdreak{
+     width:30%;
+ }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .fhzjfohlrsdreak{
+        width:40%;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+ .fhzjfohlrsdreak{
+     width:95%;
+ }
+}
